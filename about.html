@@ -4,106 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Contact</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <title>Portfolio - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+    <header class="d-flex flex-column flex-sm-row justify-content-between align-items-center p-3 bg-dark text-white">
+        <!-- Logo and Home Link -->
+        <a href="home.html" class="text-white mb-2 mb-sm-0 fs-2 text-decoration-none">
+            <span>Madeshwaran</span>
+        </a>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio - About</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    </head>
+        <!-- Navbar for small and large screens -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <body>
-        <style>
-            /* Hover effect for nav links */
-            .nav-link:hover {
-                color: #ff6f61;
-                /* Change to a reddish color on hover */
-            }
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-decoration-none" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-decoration-none" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-decoration-none" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-decoration-none" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-            /* Active nav link (when clicked) */
-            .nav-link.active {
-                color: #ff6f61 !important;
-                font-weight: bold;
-            }
-        </style>
-        </head>
-
-        <body>
-            <header
-                class="d-flex flex-column flex-sm-row justify-content-between align-items-center p-3 bg-dark text-white">
-                <!-- Logo and Home Link -->
-                <a href="home.html" class="text-white mb-2 mb-sm-0 fs-2 text-decoration-none">
-                    <span>Madeshwaran</span>
-                </a>
-
-                <!-- Navbar for small and large screens -->
-                <nav class="navbar navbar-expand-sm navbar-dark">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link text-white text-decoration-none" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white text-decoration-none" href="skills.html">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white text-decoration-none" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white text-decoration-none" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-            
-            <section id="about" class="container py-5">
-                <h1 class="text-center mb-4">About Me</h1>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-8 col-lg-10 text-center">
-                        <p class="lead">Hi, I’m <strong>Madeshwaran</strong>, a passionate front-end developer who
-                            believes
-                            in continuous growth and learning.
-                            With a Bachelor's degree in Commerce (B.Com), I bring a unique perspective to my work in web
-                            development. I specialize in building responsive and user-friendly websites using HTML, CSS,
-                            JavaScript, React, and other modern web technologies. I’m constantly seeking new
-                            opportunities
-                            to expand my skill set and explore the latest trends in web development to create
-                            high-quality,
-                            efficient solutions.</p>
-                    </div>
-                </div>
-            </section>
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous"></script>
-            <script src="main.js"></script>
-        </body>
-
-    </html>
-
+    <section id="about" class="container py-5">
+        <h1 class="text-center mb-4">About Me</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-10 text-center">
+                <p class="lead">Hi, I’m <strong>Madeshwaran</strong>, a passionate front-end developer who believes
+                    in continuous growth and learning.
+                    With a Bachelor's degree in Commerce (B.Com), I bring a unique perspective to my work in web
+                    development. I specialize in building responsive and user-friendly websites using HTML, CSS,
+                    JavaScript, React, and other modern web technologies. I’m constantly seeking new opportunities
+                    to expand my skill set and explore the latest trends in web development to create high-quality,
+                    efficient solutions.</p>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
     <script src="main.js"></script>
 </body>
 
